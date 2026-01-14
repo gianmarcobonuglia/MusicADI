@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">MusicADI Colle</string>
+    <string name="default_android_client_id">AIzaSyCP3oBq_XV_h14DufO2r_Nf2RB-DwO_TIs</string>
+    <string name="default_web_client_id">993863872831-s5b4cb9mrlhi89grrup1tb23te8rj40h.apps.googleusercontent.com</string>
+    <string name="googlef_web_client_id">993863872831-utuadk4amfd384nogtils6nubaslo0b9.apps.googleusercontent.com</string>
+    <string name="facebook_app_id">1209993710129083</string>
+    <string name="facebook_client_token">29670d3994ed15d3913c5d9dda0b7316</string>
+    <string name="string_spotify_playlist_url">https://open.spotify.com/playlist/64jlwI0fn8RX281BL67SpF</string>
+</resources>

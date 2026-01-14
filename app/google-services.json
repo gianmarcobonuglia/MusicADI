@@ -1,0 +1,82 @@
+{
+  "project_info": {
+    "project_number": "993863872831",
+    "firebase_url": "https://musicadi-27a1b-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "musicadi-27a1b",
+    "storage_bucket": "musicadi-27a1b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993863872831:android:90a6e824ce068afb49a38a",
+        "android_client_info": {
+          "package_name": "com.example.musicadicolle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "993863872831-l8v3o8gg8pa8ns3mu2pa95p4dkt11dn4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.musicadicolle",
+            "certificate_hash": "ffdc8d6be6417866713d0785920e39e54716a932"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP3oBq_XV_h14DufO2r_Nf2RB-DwO_TIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993863872831-s5b4cb9mrlhi89grrup1tb23te8rj40h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "993863872831-493b0cuatj7qo84h7buc3egpm5nopfc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.musicadiColleAdmin"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:993863872831:android:4e6dfca93f9900e449a38a",
+        "android_client_info": {
+          "package_name": "com.musicadicolle.admin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCP3oBq_XV_h14DufO2r_Nf2RB-DwO_TIs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "993863872831-s5b4cb9mrlhi89grrup1tb23te8rj40h.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "993863872831-493b0cuatj7qo84h7buc3egpm5nopfc9.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.musicadiColleAdmin"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

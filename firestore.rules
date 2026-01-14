@@ -1,0 +1,17 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Regole per consentire lettura pubblica e scrittura limitata
+    match /{document=**} {
+      // Consenti a chiunque di leggere
+      allow read: if request.auth.uid != null;
+
+      // Consenti la scrittura solo agli utenti autenticati con email specifiche
+      allow write: if request.auth.uid != null;
+    }
+    match /eventi {
+      allow read: if request.auth.uid != null; // Consenti la lettura a tutti
+      allow write: if request.auth.uid != null && request.auth.token.email.matches(".*@gmail.com"); // Modifica con il tuo dominio
+    }
+  }
+}

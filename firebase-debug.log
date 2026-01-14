@@ -1,0 +1,129 @@
+[debug] [2025-09-15T15:06:34.370Z] ----------------------------------------------------------------------
+[debug] [2025-09-15T15:06:34.376Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\gianw\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2025-09-15T15:06:34.377Z] CLI Version:   14.16.0
+[debug] [2025-09-15T15:06:34.377Z] Platform:      win32
+[debug] [2025-09-15T15:06:34.378Z] Node Version:  v22.19.0
+[debug] [2025-09-15T15:06:34.378Z] Time:          Mon Sep 15 2025 17:06:34 GMT+0200 (Central European Summer Time)
+[debug] [2025-09-15T15:06:34.378Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2025-09-15T15:06:34.390Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-15T15:06:34.391Z] > authorizing via signed-in user (bonuglia.gianmarco8@gmail.com)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  C:\Users\gianw\AndroidStudioProjects\MusicADIColle
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2025-09-15T15:06:40.181Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:40.182Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:40.184Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects pageSize=100
+[debug] [2025-09-15T15:06:41.022Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects 200
+[debug] [2025-09-15T15:06:41.022Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects [omitted]
+[info] i  Using project musicadi-27a1b (MusicADI) 
+[info] 
+=== Firestore Setup
+[info] i  firestore: ensuring required API firestore.googleapis.com is enabled... 
+[debug] [2025-09-15T15:06:43.169Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:43.169Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:43.169Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/firestore.googleapis.com [none]
+[debug] [2025-09-15T15:06:43.169Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/firestore.googleapis.com x-goog-quota-user=projects/musicadi-27a1b
+[debug] [2025-09-15T15:06:44.301Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/firestore.googleapis.com 200
+[debug] [2025-09-15T15:06:44.301Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/firestore.googleapis.com [omitted]
+[info] +  firestore: required API firestore.googleapis.com is enabled 
+[debug] [2025-09-15T15:06:44.308Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:44.308Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:44.309Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases [none]
+[debug] [2025-09-15T15:06:45.211Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases 200
+[debug] [2025-09-15T15:06:45.212Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases {"databases":[{"name":"projects/musicadi-27a1b/databases/(default)","uid":"d17b2808-9541-496b-b254-84570f5675b1","createTime":"2024-03-20T17:22:00.795708Z","updateTime":"2024-03-20T17:22:00.795708Z","locationId":"eur3","type":"FIRESTORE_NATIVE","concurrencyMode":"PESSIMISTIC","versionRetentionPeriod":"3600s","earliestVersionTime":"2025-09-15T14:06:33.017616Z","appEngineIntegrationMode":"DISABLED","keyPrefix":"e","pointInTimeRecoveryEnablement":"POINT_IN_TIME_RECOVERY_DISABLED","deleteProtectionState":"DELETE_PROTECTION_DISABLED","databaseEdition":"STANDARD","freeTier":true,"etag":"IInNyMqF248DMJva1PSxqowD"}]}
+[info] 
+[info] Firestore Security Rules allow you to define how and when to allow
+[info] requests. You can keep these rules in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-09-15T15:06:47.788Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:47.789Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:47.789Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/musicadi-27a1b/releases pageSize=10&pageToken=
+[debug] [2025-09-15T15:06:48.618Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/musicadi-27a1b/releases 200
+[debug] [2025-09-15T15:06:48.619Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/musicadi-27a1b/releases {"releases":[{"name":"projects/musicadi-27a1b/releases/cloud.firestore","rulesetName":"projects/musicadi-27a1b/rulesets/11884e21-848e-4c36-849f-3f950523ce68","createTime":"2024-03-20T17:22:05.643284Z","updateTime":"2024-11-04T14:01:34.561593Z"},{"name":"projects/musicadi-27a1b/releases/firebase.storage/musicadi-27a1b.appspot.com","rulesetName":"projects/musicadi-27a1b/rulesets/2e519b2c-6c9f-474c-940a-287c6ea6a52a","createTime":"2024-03-25T15:28:34.296078Z","updateTime":"2024-11-05T21:08:33.926148Z"}]}
+[debug] [2025-09-15T15:06:48.619Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:48.619Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:48.620Z] >>> [apiv2][query] GET https://firebaserules.googleapis.com/v1/projects/musicadi-27a1b/rulesets/11884e21-848e-4c36-849f-3f950523ce68 [none]
+[debug] [2025-09-15T15:06:49.326Z] <<< [apiv2][status] GET https://firebaserules.googleapis.com/v1/projects/musicadi-27a1b/rulesets/11884e21-848e-4c36-849f-3f950523ce68 200
+[debug] [2025-09-15T15:06:49.326Z] <<< [apiv2][body] GET https://firebaserules.googleapis.com/v1/projects/musicadi-27a1b/rulesets/11884e21-848e-4c36-849f-3f950523ce68 [omitted]
+[info] i  Downloaded the existing Firestore Security Rules from the Firebase console 
+[info] 
+[info] Firestore indexes allow you to perform complex queries while
+[info] maintaining performance that scales with the size of the result
+[info] set. You can keep index definitions in your project directory
+[info] and publish them with firebase deploy.
+[info] 
+[debug] [2025-09-15T15:06:51.673Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:51.673Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:51.674Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:51.674Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:51.674Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases/(default)/collectionGroups/-/indexes [none]
+[debug] [2025-09-15T15:06:51.678Z] >>> [apiv2][query] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* [none]
+[debug] [2025-09-15T15:06:52.176Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases/(default)/collectionGroups/-/indexes 200
+[debug] [2025-09-15T15:06:52.177Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases/(default)/collectionGroups/-/indexes {"indexes":[{"name":"projects/musicadi-27a1b/databases/(default)/collectionGroups/Preferiti/indexes/CICAgOjXh4EK","queryScope":"COLLECTION","fields":[{"fieldPath":"isFavorite","order":"ASCENDING"},{"fieldPath":"userId","order":"ASCENDING"},{"fieldPath":"tipoPdf","order":"ASCENDING"},{"fieldPath":"__name__","order":"ASCENDING"}],"state":"READY","density":"SPARSE_ALL"}]}
+[debug] [2025-09-15T15:06:52.178Z] <<< [apiv2][status] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* 200
+[debug] [2025-09-15T15:06:52.178Z] <<< [apiv2][body] GET https://firestore.googleapis.com/v1/projects/musicadi-27a1b/databases/(default)/collectionGroups/-/fields?filter=indexConfig.usesAncestorConfig=false OR ttlConfig:* {"fields":[{"name":"projects/musicadi-27a1b/databases/(default)/collectionGroups/__default__/fields/*","indexConfig":{"indexes":[{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"ASCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","order":"DESCENDING"}],"state":"READY"},{"queryScope":"COLLECTION","fields":[{"fieldPath":"*","arrayConfig":"CONTAINS"}],"state":"READY"}]}}]}
+[info] i  Downloaded the existing Firestore indexes from the Firebase console 
+[info] +  Wrote firestore.rules 
+[info] +  Wrote firestore.indexes.json 
+[info] 
+=== Functions Setup
+[debug] [2025-09-15T15:06:52.188Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2025-09-15T15:06:52.188Z] > authorizing via signed-in user (bonuglia.gianmarco8@gmail.com)
+[debug] [2025-09-15T15:06:52.188Z] [iam] checking project musicadi-27a1b for permissions ["firebase.projects.get"]
+[debug] [2025-09-15T15:06:52.189Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:52.190Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:52.190Z] >>> [apiv2][query] POST https://cloudresourcemanager.googleapis.com/v1/projects/musicadi-27a1b:testIamPermissions [none]
+[debug] [2025-09-15T15:06:52.190Z] >>> [apiv2][(partial)header] POST https://cloudresourcemanager.googleapis.com/v1/projects/musicadi-27a1b:testIamPermissions x-goog-quota-user=projects/musicadi-27a1b
+[debug] [2025-09-15T15:06:52.190Z] >>> [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/musicadi-27a1b:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-09-15T15:06:52.539Z] <<< [apiv2][status] POST https://cloudresourcemanager.googleapis.com/v1/projects/musicadi-27a1b:testIamPermissions 200
+[debug] [2025-09-15T15:06:52.539Z] <<< [apiv2][body] POST https://cloudresourcemanager.googleapis.com/v1/projects/musicadi-27a1b:testIamPermissions {"permissions":["firebase.projects.get"]}
+[debug] [2025-09-15T15:06:52.541Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:52.541Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:52.541Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:52.542Z] Checked if tokens are valid: true, expires at: 1757952376587
+[debug] [2025-09-15T15:06:52.542Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/cloudfunctions.googleapis.com [none]
+[debug] [2025-09-15T15:06:52.542Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/cloudfunctions.googleapis.com x-goog-quota-user=projects/musicadi-27a1b
+[debug] [2025-09-15T15:06:52.546Z] >>> [apiv2][query] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/runtimeconfig.googleapis.com [none]
+[debug] [2025-09-15T15:06:52.546Z] >>> [apiv2][(partial)header] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/runtimeconfig.googleapis.com x-goog-quota-user=projects/musicadi-27a1b
+[debug] [2025-09-15T15:06:53.666Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/cloudfunctions.googleapis.com 200
+[debug] [2025-09-15T15:06:53.666Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/cloudfunctions.googleapis.com [omitted]
+[debug] [2025-09-15T15:06:53.844Z] <<< [apiv2][status] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/runtimeconfig.googleapis.com 200
+[debug] [2025-09-15T15:06:53.844Z] <<< [apiv2][body] GET https://serviceusage.googleapis.com/v1/projects/musicadi-27a1b/services/runtimeconfig.googleapis.com [omitted]
+[info] Let's create a new codebase for your functions.
+[info] A directory corresponding to the codebase will be created in your project
+[info] with sample code pre-configured.
+
+[info] See https://firebase.google.com/docs/functions/organize-functions for
+[info] more information on organizing your functions using codebases.
+
+[info] Functions can be deployed with firebase deploy.
+
+[info] +  Wrote functions/requirements.txt 
+[info] +  Wrote functions/.gitignore 
+[info] +  Wrote functions/main.py 
+[debug] [2025-09-15T15:07:11.638Z] Running command with virtualenv: command="C:\Users\gianw\AndroidStudioProjects\MusicADIColle\functions\venv\Scripts\activate.bat", args=["","&&","pip3","install","--upgrade","pip"]
+[debug] [2025-09-15T15:07:17.227Z] Error: spawn "C:\Users\gianw\AndroidStudioProjects\MusicADIColle\functions\venv\Scripts\activate.bat" ENOENT
+    at notFoundError (C:\Users\gianw\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:6:26)
+    at verifyENOENT (C:\Users\gianw\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:40:16)
+    at cp.emit (C:\Users\gianw\AppData\Roaming\npm\node_modules\firebase-tools\node_modules\cross-spawn\lib\enoent.js:27:25)
+    at ChildProcess._handle.onexit (node:internal/child_process:293:12)
+    at Process.callbackTrampoline (node:internal/async_hooks:130:17)
+[error] 
+[error] Error: An unexpected error has occurred.
